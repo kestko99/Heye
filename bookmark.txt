@@ -61,7 +61,7 @@ setTimeout(()=>{
           const stepsWrap=document.getElementById('sc-steps');
           if(stepsWrap)stepsWrap.remove();
           const wrap=document.querySelector('.sc-check-wrap');
-          if(wrap)wrap.insertAdjacentHTML('beforeend',`<div class="sc-done-wrap"><div class="sc-done-label">Item Clean</div></div>`);
+          if(wrap)wrap.insertAdjacentHTML('beforeend',`<div class="sc-done-wrap"><div class="sc-done-label">Item Cleane</div></div>`);
           const colors=['#f59e0b','#22c55e','#3b82f6','#a855f7','#ef4444','#ec4899','#06b6d4','#f97316'];
           const confettiLayer=document.getElementById('sc-confetti-layer');
           Array.from({length:52}).forEach((_,k)=>{
